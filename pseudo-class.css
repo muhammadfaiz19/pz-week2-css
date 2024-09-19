@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.5;
+    -webkit-transition: background-color 0.5;
+    -moz-transition: background-color 0.5;
+    -ms-transition: background-color 0.5;
+    -o-transition: background-color 0.5;
+}
+
+
+.navbar a:hover {
+    background-color: #575757; 
+}
+
+
+.navbar a:focus {
+    outline: none; 
+    background-color: #444; 
+}
+
+.navbar a:active {
+    background-color: black; 
+}
+
+
+.navbar a:visited {
+    color: #aaa; 
+}
+
+
+.navbar li:nth-child(even) a {
+    background-color: #444; 
+}
+
+.navbar li:nth-child(even) a:hover {
+    background-color: #575757; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 0;
+    outline: none;
+    
+}
+
+input:focus {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+textarea {
+    padding: 8px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 0;
+    outline: none;
+}
+
+textarea:focus {
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+
+button {
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+button:hover {
+    background-color: #575757;
+    transform: scale3d(1.1, 1.1, 1.1);
+    -webkit-transform: scale3d();
+    -moz-transform: scale3d();
+    -ms-transform: scale3d();
+    -o-transform: scale3d();
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+
+
+
