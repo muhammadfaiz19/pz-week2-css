@@ -1,0 +1,93 @@
+* {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  color: red;
+}
+
+p {
+  color: bisque;
+}
+
+.wrapping {
+  border:2px double blue;
+  height: 20px;
+  background-color: aqua;
+}
+
+#wrap-faiz {
+  font-weight: 800;
+}
+
+div h1 {
+  color: yellow;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: yellow;
+}
+
+a:visited {
+  color: green;
+}
+
+ul > li {
+  color: purple;
+}
+
+h1 + p {
+  color: green;
+}
+h2 ~ p {
+  color: blue;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 150px;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+
+input:focus {
+  width: 300px;
+}
+
+label {
+  font-size: 20px;
+}
+
+button {
+  width: 190px;
+  margin-top: 20px;
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+button:active {
+  background-color: green;
+}

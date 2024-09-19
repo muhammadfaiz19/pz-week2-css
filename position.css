@@ -1,0 +1,60 @@
+* {
+    font-family: "PT Serif", serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.static-box {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.relative-parent {
+    position: relative;
+    background-color: lightgreen;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: lightcoral;
+    padding: 20px;
+}
+
+.absolute-parent {
+    position: relative; 
+    height: 200px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px; 
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+.sticky-box {
+    position: sticky;
+    top: 0; 
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    padding: 20px;
+}
